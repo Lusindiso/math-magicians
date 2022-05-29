@@ -1,62 +1,51 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Math Magicians
 
-# Project Name
+> Math Magician is a website for all fans of Mathematics. It is a Single Page App (SPA).
 
-> Description the project.
+## Features
 
+- Make simple calculations.
+- Read a random math-related quote.
 
-## Built With
+## Built Using
 
-- Major languages
-- Frameworks
-- Technologies used
+- ReactJs.
+- CSS.
+- GitFlow.
 
-## Live Demo (if available)
+## Run the app in the development mode(Port 3000)
 
-[Live Demo Link](https://livedemo.com)
+```
+npm start
+```
 
+## Launches the test runner
 
-## Getting Started
+```
+npm test
+```
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+## Builds the app for production
 
+```
+npm run build
+```
 
-To get a local copy up and running follow these simple example steps.
+## Demo App
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+**live demo** [To be Published.]()
 
 ## Authors
 
-👤 **Author1**
+👤 **Lusindiso Ntanjana**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Lusindiso](https://github.com/Lusindiso)
+- Twitter: [@LusindisoNt](https://twitter.com/LusindisoNt)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lusindisontanjana/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -64,9 +53,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to code reviewers and to everyone who reviewed the project and made suggestions.
 
 ## 📝 License
 
