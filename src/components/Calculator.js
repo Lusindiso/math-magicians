@@ -1,23 +1,21 @@
-import React, { Component } from "react";
-import Buttons from "./display/Buttons";
-import "./Calculator.css";
-import First from "./display/First";
-import Last from "./display/Last";
-import Screen from "./Screen";
+import React, { PureComponent } from 'react';
+import Buttons from './display/Buttons';
+import './Calculator.css';
+import Last from './display/Last';
+import Screen from './Screen';
 
-export class Calculator extends Component {
-	render() {
-		return (
-			<div className="calculator">
-				<Screen />
-				<div className="bottom">
-					<First />
-					<Last />
-					<Buttons />
-				</div>
-			</div>
-		);
-	}
+class Calculator extends PureComponent {
+  render() {
+    return (
+      <div className="calculator">
+        <Screen />
+        <div className="bottom">
+          <Last />
+          <Buttons />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Calculator;

@@ -1,10 +1,12 @@
-import React, { Component } from "react";
-import "./Button.css";
+/* eslint-disable react/prop-types */
+import React, { PureComponent } from 'react';
+import './Button.css';
 
-export class Button extends Component {
-	render() {
-		return <div className="button">{this.props.value}</div>;
-	}
+class Button extends PureComponent {
+  render() {
+    const { value } = this.props;
+    return <div className="button">{value}</div>;
+  }
 }
 
 export default Button;

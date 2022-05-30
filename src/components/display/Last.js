@@ -1,20 +1,18 @@
-import React, { Component } from "react";
-import Button from "../Button";
-import Operator from "../Operator";
-import "./Last.css";
+import React, { PureComponent } from 'react';
+import Button from '../Button';
+import './Last.css';
 
-const list = ["÷", "X", "-", "+"];
-export class Last extends Component {
-	render() {
-		return (
-			<div className="last">
-				{list.map((el) => (
-					<Operator value={el} key={el} />
-				))}
-				<Button value="=" />
-			</div>
-		);
-	}
+const list = ['÷', 'X', '-', '+', '='];
+class Last extends PureComponent {
+  render() {
+    return (
+      <div className="last">
+        {list.map((el) => (
+          <Button value={el} key={el} />
+        ))}
+      </div>
+    );
+  }
 }
 
 export default Last;

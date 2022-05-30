@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import "./Screen.css";
+import React, { PureComponent } from 'react';
+import './Screen.css';
 
-export class Screen extends Component {
-	render() {
-		return <input className="screen" value="0" readOnly />;
-	}
+class Screen extends PureComponent {
+  render() {
+    return <input className="screen" value="0" readOnly />;
+  }
 }
 
 export default Screen;

@@ -1,18 +1,18 @@
 .screen {
-	background-color: #858694;
-	grid-column: 1/-1;
-	grid-row: 1/2;
-	font-size: 5rem;
-	display: flex;
-	text-align: right;
-	align-items: center;
-	color: white;
-	padding: 1rem;
-	height: 10rem;
-	border: none;
+  background-color: #858694;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  font-size: 5rem;
+  display: flex;
+  text-align: right;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+  height: 10rem;
+  border: none;
 }
 
 .screen:active,
 .screen:focus {
-	outline: none;
+  outline: none;
 }
