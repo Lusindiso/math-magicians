@@ -1,9 +1,11 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import './Screen.css';
 
-class Screen extends PureComponent {
+class Screen extends Component {
+  
   render() {
-    return <input className="screen" value="0" readOnly />;
+    const { total, next } = this.props.value;
+    return  <div className="screen">{next || total}</div>
   }
 }
 

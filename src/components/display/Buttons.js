@@ -1,18 +1,22 @@
-import React, { PureComponent } from 'react';
-import './Buttons.css';
+import React, { Component } from "react";
+import Button from "../Button";
 
-const list = ['AC', '+/-', '%', 7, 8, 9, 4, 5, 6, 1, 2, 3, 0, '.'];
+import "./Buttons.css";
 
-class Buttons extends PureComponent {
-  render() {
-    const display = list.map((el) => (
-      <div className={`button ${el === 0 ? 'btn' : ''}`} key={el}>
-        {el}
-      </div>
-    ));
+const list = ["AC", "+/-", "%", '7', '8', '9', '4', '5', '6', '1', '2', '3', '0', "."];
 
-    return <div className="buttons">{display}</div>;
-  }
+class Buttons extends Component {
+	render() {
+		const { handleClick } = this.props;
+
+		return (
+			<div className="buttons">
+				{list.map((el) => (
+					<Button value={el} key={el} handleClick={handleClick}/>
+				))}
+			</div>
+		);
+	}
 }
 
 export default Buttons;

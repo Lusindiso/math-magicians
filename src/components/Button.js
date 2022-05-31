@@ -1,12 +1,16 @@
-/* eslint-disable react/prop-types */
-import React, { PureComponent } from 'react';
-import './Button.css';
+import React, { Component } from "react";
+import "./Button.css";
 
-class Button extends PureComponent {
-  render() {
-    const { value } = this.props;
-    return <div className="button">{value}</div>;
-  }
+class Button extends Component {
+	
+	render() {
+		const { value, handleClick } = this.props;
+		return (
+			<button className={`button ${value === '0' ? 'btn' : ''}`} onClick={()=>handleClick(value)}>
+				{value}
+			</button>
+		);
+	}
 }
 
 export default Button;
